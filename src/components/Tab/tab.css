@@ -1,0 +1,24 @@
+.product-tab {
+  border-bottom: 1px solid #e5e5e5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding-bottom: 25px;
+}
+
+.product-tab > ul.product-menu > li > a {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0 30px;
+  position: relative;
+}
+
+.tab-active{
+  color: #007bff !important;
+}

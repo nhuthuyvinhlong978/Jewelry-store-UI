@@ -1,0 +1,123 @@
+.contact-main-page {
+  padding: 80px 0 60px;
+  /* ---Contact Form Area--- */
+}
+.contact-main-page .contact-page-side-content {
+  background-color: #f4f4f4;
+  padding: 30px 30px 19px;
+  margin-top: 60px;
+}
+@media (max-width: 479px) {
+  .contact-main-page .contact-page-side-content {
+    padding: 25px 30px 19px;
+  }
+}
+.contact-main-page .contact-page-side-content .contact-page-message {
+  margin-bottom: 0;
+  padding-bottom: 25px;
+}
+.contact-main-page .contact-page-side-content .single-contact-block {
+  padding-bottom: 3px;
+  margin-bottom: 27px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.contact-main-page .contact-page-side-content .single-contact-block:last-child {
+  border-bottom: none;
+}
+.contact-main-page .contact-page-side-content .single-contact-block h4 {
+  margin-bottom: 0;
+  padding-bottom: 25px;
+}
+.contact-main-page .contact-page-side-content .single-contact-block p {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+.contact-main-page
+  .contact-page-side-content
+  .single-contact-block.last-child
+  > h4 {
+  padding-bottom: 20px;
+}
+.contact-main-page .contact-page-title {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+@media (max-width: 479px) {
+  .contact-main-page .contact-page-title {
+    font-size: 25px;
+  }
+}
+.contact-main-page .contact-form-content {
+  margin-top: 60px;
+}
+.contact-main-page .contact-form-content .contact-form .form-group {
+  margin-bottom: 20px;
+}
+.contact-main-page
+  .contact-form-content
+  .contact-form
+  .form-group.form-group-2 {
+  margin-bottom: 25px;
+}
+.contact-main-page .contact-form-content .contact-form .form-group label {
+  display: block;
+  font-size: 15px;
+  line-height: 29px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  cursor: text;
+}
+.contact-main-page .contact-form-content .contact-form .form-group label span,
+.contact-main-page
+  .contact-form-content
+  .contact-form
+  .form-group
+  label.required {
+  color: #ff0000;
+}
+.contact-main-page .contact-form-content .contact-form .form-group input {
+  background-color: #ffffff;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  outline: none;
+  border: 1px solid #e5e5e5;
+  padding-left: 20px;
+}
+.contact-main-page .contact-form-content .contact-form .form-group textarea {
+  background-color: #ffffff;
+  width: 100%;
+  outline: none;
+  border: 1px solid #e5e5e5;
+  padding-left: 20px;
+  line-height: 50px;
+  height: 200px;
+}
+.contact-main-page
+  .contact-form-content
+  .contact-form
+  .form-group
+  .hiraola-contact-form_btn {
+  line-height: 12px;
+  display: inline-block;
+  padding: 16px 30px;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 12px;
+  background-color: #595959;
+  border: 1px solid #595959;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.contact-main-page
+  .contact-form-content
+  .contact-form
+  .form-group
+  .hiraola-contact-form_btn:hover {
+  background-color: #cda557;
+  color: #ffffff;
+  border-color: #cda557;
+}

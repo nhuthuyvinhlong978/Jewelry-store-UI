@@ -1,0 +1,15 @@
+body {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+#main-content {
+  min-height: 500px;
+  margin-top: 100px;
+}
+
+dl,
+ol,
+ul {
+  margin: 0rem !important;
+  padding: 0rem !important;
+}

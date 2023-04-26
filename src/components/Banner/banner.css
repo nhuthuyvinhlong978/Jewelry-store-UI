@@ -1,0 +1,58 @@
+.banner-item {
+  height: auto;
+  border: 1px solid #e5e5e5;
+}
+
+.img-hover_effect {
+  position: relative;
+  display: block;
+}
+.img-hover_effect a {
+  overflow: hidden;
+  display: block;
+}
+.img-hover_effect a img {
+  width: 100%;
+  height: auto;
+}
+.img-hover_effect a:before {
+  bottom: 0;
+  content: '';
+  left: 50%;
+  position: absolute;
+  right: 51%;
+  top: 0;
+  opacity: 0.6;
+}
+.img-hover_effect a:after {
+  bottom: 50%;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  opacity: 0.6;
+}
+.img-hover_effect:hover a:before {
+  left: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 900ms ease-in;
+  -o-transition: all 900ms ease-in;
+  transition: all 900ms ease-in;
+}
+.img-hover_effect:hover a:after {
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  -webkit-transition: all 900ms ease-in;
+  -o-transition: all 900ms ease-in;
+  transition: all 900ms ease-in;
+}
+
+.img-hover_effect a:before {
+  background: #be8658;
+}
+.img-hover_effect a:after {
+  background: #be8658;
+}

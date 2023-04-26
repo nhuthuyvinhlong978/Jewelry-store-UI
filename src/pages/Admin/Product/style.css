@@ -1,0 +1,9 @@
+.wrap-product-main .MuiDataGrid-row{
+    height: 100px !important;
+    max-height: none !important;
+}
+
+.wrap-product-main .MuiDataGrid-cell{
+    height: 100px !important;
+    max-height: none !important;
+}

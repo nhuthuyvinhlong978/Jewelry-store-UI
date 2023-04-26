@@ -1,0 +1,84 @@
+.about-us-area {
+  padding-top: 80px;
+}
+.about-us-area .overview-content > h2 {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  position: relative;
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-us-area .overview-content > h2 {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-us-area .overview-content > h2 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 767px) {
+  .about-us-area .overview-content > h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 479px) {
+  .about-us-area .overview-content > h2 {
+    font-size: 18px;
+  }
+}
+.about-us-area .overview-content > h2 span {
+  color: #cda557;
+}
+.about-us-area .overview-content > h2:before {
+  background-color: #f4f4f4;
+  bottom: 0;
+  content: '';
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.about-us-area .overview-content > h2:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #cda557;
+  height: 2px;
+  width: 170px;
+}
+.about-us-area .overview-content > .short_desc {
+  margin-bottom: 0;
+  padding-bottom: 25px;
+}
+@media (max-width: 767px) {
+  .about-us-area .overview-content .hiraola-about-us_btn-area {
+    float: left;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+}
+.about-us-area .overview-content .hiraola-about-us_btn-area .about-us_btn {
+  background: #cda557;
+  color: #ffffff;
+  display: block;
+  float: left;
+  height: 50px;
+  line-height: 50px;
+  width: 145px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.about-us-area
+  .overview-content
+  .hiraola-about-us_btn-area
+  .about-us_btn:hover {
+  background: #595959;
+  color: #ffffff !important;
+}

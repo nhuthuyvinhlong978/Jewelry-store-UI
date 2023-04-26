@@ -1,0 +1,10 @@
+.wrap-content-admin {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.content-admin-title {
+  font-size: 22px !important;
+  font-weight: 700;
+}

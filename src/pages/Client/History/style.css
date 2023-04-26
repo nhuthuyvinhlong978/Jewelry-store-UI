@@ -1,0 +1,10 @@
+.wrap-history{
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.wrap-history:hover{
+    border: 2px solid #b76e79;
+    cursor: pointer;
+}

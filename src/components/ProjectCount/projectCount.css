@@ -1,0 +1,44 @@
+.project-count-area {
+  padding-top: 90px;
+}
+.project-count-area .single-count:hover .count-icon span {
+  -webkit-animation: 850ms ease-in-out 0s normal none 1 running tada;
+  animation: 850ms ease-in-out 0s normal none 1 running tada;
+}
+.project-count-area .single-count .count-icon span {
+  font-size: 50px;
+  color: #595959;
+  line-height: 1;
+  display: inline-block;
+}
+.project-count-area .single-count .count-title h2 {
+  color: #cda557;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  margin: 15px 0 5px;
+}
+.project-count-area .single-count .count-title > span {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .project-count-area [class*='col-']:nth-child(-n + 2) .single-count {
+    padding-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .project-count-area [class*='col-']:nth-child(-n + 2) .single-count {
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 575px) {
+  .project-count-area [class*='col-'] {
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 575px) {
+  .project-count-area [class*='col-']:last-child {
+    padding-bottom: 0;
+  }
+}

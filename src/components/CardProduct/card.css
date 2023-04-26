@@ -1,0 +1,46 @@
+.single_product {
+  border: 1px solid #e5e5e5;
+}
+
+.single_product .product-img {
+  position: relative;
+  overflow: visible;
+}
+
+.single_product .product-img > a img {
+  width: 100%;
+}
+
+.single_product .product-img .add-actions {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  opacity: 0;
+}
+
+.single_product .product-img .add-actions > ul li {
+  position: relative;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.single_product .hiraola-product_content {
+  text-align: left;
+  padding: 0 20px 20px;
+}
+
+.single_product
+  .hiraola-product_content
+  .product-desc_info
+  .additional-add_action {
+  display: inline-block;
+  float: right;
+}
+
+.like-icon:hover {
+  color: red;
+  cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.hiraola-shipping_area {
+  background-color: #f4f4f4;
+}
+.hiraola-shipping_area .shipping-nav {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 80px 0 75px;
+}
+.hiraola-shipping_area .shipping-nav .shipping-item {
+  text-align: center;
+}
+.hiraola-shipping_area .shipping-nav .shipping-item .shipping-icon {
+  padding-bottom: 10px;
+  font-size: 42px;
+}
+.hiraola-shipping_area .shipping-nav .shipping-item .shipping-content > h6 {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+.hiraola-shipping_area .shipping-nav .shipping-item .shipping-content > p {
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .hiraola-shipping_area
+    .shipping-nav
+    [class*='col']:nth-child(-n + 2)
+    .shipping-item {
+    padding-bottom: 25px;
+  }
+}
+@media (max-width: 767px) {
+  .hiraola-shipping_area
+    .shipping-nav
+    [class*='col']:nth-child(-n + 3)
+    .shipping-item {
+    padding-bottom: 25px;
+  }
+}
+.hiraola-shipping_area.hiraola-shipping_area-2 {
+  background-color: #ffffff;
+}
+.hiraola-shipping_area.hiraola-shipping_area-2 .shipping-nav {
+  padding: 60px 0 55px;
+}
